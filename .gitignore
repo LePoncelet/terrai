@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+node_modules/
+.next/
+out/
+build/
+dist/
+
+.env
+.env.local
+*.log
+
+.DS_Store
+.vscode/
+.idea/
+
+# Datos descargados (imágenes satelitales, uploads) no van al repo
+backend/storage/
+backend/data/raw_satellite/
+*.tif
+*.tiff
+*.safe
+
+# modelos entrenados (pesos binarios grandes)
+*.pt
+*.onnx
+!backend/app/ml/models/.gitkeep
